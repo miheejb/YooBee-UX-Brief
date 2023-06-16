@@ -1,0 +1,38 @@
+:root {
+  --darkgrey: rgb(33, 40, 36);
+  --light-green: rgb(216, 225, 208);
+  --medium-green:rgb(4, 114, 4);
+  --darker-green: rgb(172, 181, 164);
+  --dark-green:rgb(88, 91, 86);
+  --gentle-yellow:rgb(239, 239, 175);
+  --button-hover:rgb(244, 172, 164);
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+*:visited {
+  color: var(--darkpink);
+}
+html,
+body {
+
+  font-size: 62.5%;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  height: 100%;
+  line-height: 2rem;
+  color:var(--darkgrey);
+  background-color:whitesmoke;
+  margin-left:auto;
+  margin-right:auto;
+  
+}
+
+body {
+  font-size: 1.6rem;
+}
